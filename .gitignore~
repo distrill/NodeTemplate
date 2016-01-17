@@ -29,5 +29,3 @@ node_modules
 # Public css and js folders, which will be compiled from the included 'source' folder
 public/css
 public/js
-
-.git
