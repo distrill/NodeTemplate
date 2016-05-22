@@ -1,9 +1,9 @@
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
-var express = require( './config/express' );
+const express = require('./config/express');
+const app = express();
+const port = process.env.PORT || 3000;
 
-var app = express();
+app.listen(port, '127.0.0.1');
 
-app.listen( 3030, '127.0.0.1' );
-
-console.log( 'temp app running at http://localhost:3030/' );
+console.log('temp app running at http://localhost:' + port + '/');

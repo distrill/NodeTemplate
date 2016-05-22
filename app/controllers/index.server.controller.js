@@ -1,3 +1,5 @@
-exports.render = function( req, res ) {
-    res.render( 'index', {} )
-}
+exports.render = (req, res) => {
+  res.sendFile('index.html', {
+    root: __dirname + '/../views/',
+  });
+};

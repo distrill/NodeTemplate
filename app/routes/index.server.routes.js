@@ -1,6 +1,6 @@
-var index = require( '../controllers/index.server.controller' );
+const index = require('../controllers/index.server.controller');
 
-module.exports = function( app ) {
+module.exports = (app) => {
 
-    app.get( '/', index.render );
-}
+  app.get('/', index.render);
+};
