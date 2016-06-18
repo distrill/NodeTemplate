@@ -7,9 +7,6 @@
   },
   "devDependencies": {
     "eslint": "^2.10.2",
-    "eslint-config-airbnb": "^9.0.1",
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.5.2",
-    "gulp-sass": "^2.0.1"
+    "eslint-config-airbnb": "^9.0.1"
   }
 }
