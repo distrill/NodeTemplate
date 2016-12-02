@@ -2,11 +2,16 @@
   "name": "application",
   "version": "0.0.1",
   "dependencies": {
+    "ejs": "^2.5.3",
     "express": "^4.12.4",
     "morgan": "^1.5.3"
   },
   "devDependencies": {
-    "eslint": "^2.10.2",
-    "eslint-config-airbnb": "^9.0.1"
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-config-strawhouse": "^1.0.4",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2"
   }
 }
